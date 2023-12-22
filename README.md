@@ -6,7 +6,9 @@
 
 `go.mod` ファイルに次の行を追記してください。
 
-​    require github.com/takatoh/lsm v1.0.0
+```
+require github.com/takatoh/lsm v1.0.0
+```
 
 ## Functions
 
@@ -14,7 +16,9 @@
 
 1次のモデル関数 `y = a * x + b` のパラメータ `a`、`b` を返します。
 
-​    a, b := lsm.LSM1(xs, ys)
+```go
+a, b := lsm.LSM1(xs, ys)
+```
 
 `xs` と `ys` は一連のデータの `x` と `y` のスライスで、同じ長さでなければなりません。
 
