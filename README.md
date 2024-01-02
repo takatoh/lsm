@@ -7,7 +7,7 @@
 `go.mod` ファイルに次の行を追記してください。
 
 ```
-require github.com/takatoh/lsm v1.0.0
+require github.com/takatoh/lsm v1.1.0
 ```
 
 ## Functions
